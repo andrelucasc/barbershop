@@ -1,6 +1,29 @@
+body {
+    margin: 0%;
+}
+
+header {
+    /*background: url(assets/images/header-background.jpg) #448181*/
+    padding: 15px;
+}
+
+.hrbg {
+    background-image: url(assets/images/header-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: auto;
+    display: block;
+}
+
+h1 {
+    margin-top: 0;
+}
 #title {
-    color: #2f4f4f;
+    color: #d3e9e9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    
+}
+
+hr {
+    margin: 0px;
 }
