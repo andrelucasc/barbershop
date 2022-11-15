@@ -1,5 +1,6 @@
 body {
     margin: 0%;
+    background-color: rgb(46, 51, 58);
 }
 
 header {
@@ -8,11 +9,11 @@ header {
 }
 
 .hrbg {
-    background-image: url(assets/images/header-background.jpg);
-    background-repeat: no-repeat;
+    margin: 0%;
+    box-sizing: border-box;
+    background-image: url(assets/images/wood-bg.png);
     background-size: cover;
-    max-width: auto;
-    display: block;
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -26,4 +27,5 @@ h1 {
 
 hr {
     margin: 0px;
+    border-color: rgb(141, 141, 141);
 }
