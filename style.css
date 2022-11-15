@@ -5,14 +5,15 @@ body {
 
 header {
     /*background: url(assets/images/header-background.jpg) #448181*/
-    padding: 15px;
+    padding: 20px;
 }
 
 .center {
     margin-left: auto;
     margin-right: auto;
+    box-sizing: border-box;
 }
-    
+
 .hrbg {
     margin: 0%;
     box-sizing: border-box;
