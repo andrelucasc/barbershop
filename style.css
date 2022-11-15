@@ -1,11 +1,15 @@
 body {
     margin: 0%;
     background-color: rgb(46, 51, 58);
+    width: 100%;
+    height: auto;
 }
 
 header {
     /*background: url(assets/images/header-background.jpg) #448181*/
     padding: 20px;
+    width: 100%;
+    height: auto;
 }
 
 .center {
@@ -20,6 +24,8 @@ header {
     background-image: url(assets/images/wood-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
 }
 
 h1 {
