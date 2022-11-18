@@ -5,12 +5,19 @@
     --cor-hoover: hsl(0, 63%, 31%);
 }
 
+@media screen {
+    (max-width: 800px;)
+    {
+        
+    }
+}
+
 header {
     background-image: url(src/images/header.png);
     position: absolute;
     width: 1440px;
     height: 200px;
-    max-width: 100%;
+    max-width: 100vh;
     left: 0px;
     top: 0px;
     display: flex;
@@ -28,7 +35,7 @@ body {
     background-image: url(src/images/background.png);
     background-repeat: no-repeat;
     background-size: auto;
-    max-width: 100%;
+    max-width: 100%vh
     max-height: 100vh;
 }
 
