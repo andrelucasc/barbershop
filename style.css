@@ -1,0 +1,39 @@
+:root {
+    --cor-fundo: hsl(194, 74%, 54%);
+    --cor-primaria: hsl(28, 7%, 96%);
+    --cor-principal: hsl(0, 0%, 0%);
+    --cor-hoover: hsl(0, 63%, 31%);
+}
+
+header {
+    background-image: url(src/images/header.png);
+    position: absolute;
+    width: 1440px;
+    height: 200px;
+    max-width: 100%;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-image: url(src/images/background.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+.test {
+    border: 2px solid red;
+    float: right;
+    text-align: center;
+}
