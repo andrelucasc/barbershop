@@ -5,53 +5,56 @@
     --cor-hoover: hsl(0, 63%, 31%);
 }
 
-@media screen {
-    (max-width: 800px;)
-    {
-        
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header {
+.header {
     background-image: url(src/images/header.png);
     position: absolute;
     width: 1440px;
     height: 200px;
     max-width: 100%;
     left: 0px;
+    right: 0px;
     top: 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 body {
-    height: 100%;
-    background: black;
-    background-repeat: no-repeat;
-    background-size: auto;
-    max-width: 100%vh
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center    
 }
 
 .bg {
     background-image: url(src/images/background.png);
     margin-top: 80vmin  ;
-    height: 100%;
+    width: 100vh;
+    max-height: 100%;
     background-position: center;
-    /*background-repeat: no-repeat;*/
-    background-size: cover;
-    display: flex;
-    max-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
-.test {
-    border: 2px solid red;
-    float: right;
-    text-align: center;
+.menu {
+    border: 50px solid red;
+    text-align: right;
+    margin-left: 150vh;
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
 }
