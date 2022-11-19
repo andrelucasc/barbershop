@@ -32,10 +32,21 @@ header {
 }
 
 body {
-    background: url(src/images/background.png) black;
+    height: 100%;
+    background: black;
     background-repeat: no-repeat;
     background-size: auto;
     max-width: 100%vh
+}
+
+.bg {
+    background-image: url(src/images/background.png);
+    margin-top: 80vmin  ;
+    height: 100%;
+    background-position: center;
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    display: flex;
     max-height: 100vh;
 }
 
