@@ -5,11 +5,6 @@
     --cor-hoover: hsl(0, 63%, 31%);
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 .header {
     background-image: url(src/images/header.png);
@@ -37,7 +32,7 @@ body {
 .wrapper {
     display: flex;
     align-items: center;
-    justify-content: center    
+    justify-content: center;
 }
 
 .bg {
@@ -50,11 +45,13 @@ body {
     background-size: auto;
 }
 
-.menu {
-    border: 50px solid red;
-    text-align: right;
-    margin-left: 150vh;
+.mainimg {
+
+}
+
+.endtext{
+    text-align: center;
     position: absolute;
-    display: flex;
-    align-items: flex-start;
+    color: var(--cor-primaria);
+    font-family: Poppins, sans-serif;
 }
